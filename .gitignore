@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials and local Git backups
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.git.bak/
+
+# Local input records and generated results
+*.xlsx
+*.xls
+*.csv
+*.tsv
+/output/
+/data/
+/dataset/
+*.log
+
+# Existing model/training outputs
+checkpoints/
+runs/
+*.pth
+*.pt
+*.ckpt
